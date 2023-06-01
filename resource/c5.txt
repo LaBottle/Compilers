@@ -1,0 +1,24 @@
+program Main
+
+var
+integer a, b;
+float c;
+
+procedure plus(integer x; integer y);
+begin
+    write x * y;
+end
+
+procedure main();
+begin
+    a = 1;
+    b = a + 1 * (5 / 2) - a;
+    c = 1.5;
+
+    if c < 5 and 1 < 2 or 2 > 1 then
+        c = c + 1
+    else
+    fi;
+
+    plus(a, b)
+end 

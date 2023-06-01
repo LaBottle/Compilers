@@ -1,0 +1,32 @@
+program Main
+
+var
+integer a, b;
+float c;
+
+procedure main();
+begin
+    a = 1;
+    b = 2;
+    if a == 1 then
+        if a == 2 then
+            c = 3.0
+        else
+            c = 4.0
+        fi
+    else
+        c = 5.0
+    fi;
+    write c;
+
+    while a > 0 then
+        while b > 0 then
+            b = b - 1
+        endwh;
+        a = a - 1
+    endwh;
+
+    write a;
+    write b
+
+end 

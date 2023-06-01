@@ -1,0 +1,8 @@
+program Main
+var
+integer a, b;
+
+procedure main()
+begin
+    c = 1
+end
